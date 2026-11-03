@@ -1,0 +1,21 @@
+# Files Google Cloud must NOT upload when deploying from source
+.env
+.streamlit/secrets.toml
+edureka_rag_project/
+.venv/
+venv/
+
+# version control, caches, editor files
+.git
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.DS_Store
+
+# not needed at runtime
+docs/
+tests/
+scripts/
+*.zip

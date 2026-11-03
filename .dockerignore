@@ -1,0 +1,21 @@
+# secrets and environments: never copy into the image
+.env
+.streamlit/secrets.toml
+edureka_rag_project/
+.venv/
+venv/
+
+# version control, caches, editor files
+.git
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.DS_Store
+
+# not needed at runtime
+docs/
+tests/
+scripts/
+*.zip
